@@ -34,8 +34,8 @@ public class PetStore {
 	private String petStoreAddress;
 	private String petStoreCity;
 	private String petStoreState;
-	private Long petStoreZip;
-	private Long petStorePhone;
+	private String petStoreZip;
+	private String petStorePhone;
 	
 /*Add the relationship variables into each class:*/
 	

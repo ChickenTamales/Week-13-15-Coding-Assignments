@@ -13,7 +13,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
-/*Remember to add the @Entity (jakarta.persistence) and @Data (lombok) class-level annotations.*/
+/*Remember to add the @Entity (jakarta.persistence) and @Data (lombok) class-level 
+ * annotations.*/
 
 @Entity
 @Data
@@ -26,7 +27,6 @@ public class Customer {
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private Long customerId;
-	
 	private String customerFirstName;
 	private String customerLastName;
 	private String customerEmail;
