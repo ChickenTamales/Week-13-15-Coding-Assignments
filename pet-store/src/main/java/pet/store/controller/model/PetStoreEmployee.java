@@ -17,13 +17,15 @@ public class PetStoreEmployee {
 	private String employeeFirstName;
 	private String employeeLastName;
 	private String employeePhone;
+	private String employeeEmail;
 	private String employeeJobTitle;
 	
-	PetStoreEmployee (Employee employee){
+	public PetStoreEmployee (Employee employee){
 		employeeId = employee.getEmployeeId();
 		employeeFirstName = employee.getEmployeeFirstName();
 		employeeLastName = employee.getEmployeeLastName();
 		employeePhone = employee.getEmployeePhone();
+		employeeEmail = employee.getEmployeeEmail();
 		employeeJobTitle = employee.getEmployeeJobTitle();
 	}
 	

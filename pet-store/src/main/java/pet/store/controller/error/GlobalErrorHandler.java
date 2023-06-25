@@ -47,7 +47,7 @@ public class GlobalErrorHandler {
 	returned*/
 	public Map<String, String> handleNoSuchElementException(
 			NoSuchElementException ex) {
-		log.info("Attempting to modify a pet store with an invalid ID", ex);
+		log.error("Exception: {}", ex.toString());
 
 		Map<String, String> invalidPetStoreId = new HashMap<>();
 		invalidPetStoreId.put("message", ex.toString()); 
